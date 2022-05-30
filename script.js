@@ -1,9 +1,9 @@
-var paintcanvas = document.getElementById("canvas1");
-var context = paintcanvas.getContext("2d");
-var color = 'black';
-var radius = 50;
+let paintcanvas = document.getElementById("canvas1");
+let context = paintcanvas.getContext("2d");
+let color = 'black';
+let radius = 50;
 // only paint if mouse is  being dragged (moved while the button is pressed)
-var isPainting = false;
+let isPainting = false;
 
 function setWidth(value) {
  if(isNumeric(value)){
